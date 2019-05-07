@@ -1,0 +1,70 @@
+body{
+    background-color: blanchedalmond;   
+}
+header {  
+  
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    padding-top: 5px;
+    color: #444;
+  }
+  
+  header blockquote {
+    float: right;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: 0px 0px 1px #fff;
+    font-size: 12px;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  
+  .dev-path {
+    font-size: 15px;
+    text-align: center;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #fff;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  
+  .dev-name {
+    margin-top: 0;
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 1px 1px 5px #000;
+    transition: all 0.2s ease-in-out 0s;
+
+  }
+  @media (min-width: 600px) {
+
+.dev-path {
+  font-size: 20px;
+}
+
+.dev-name {
+  font-size: 40px;
+}
+
+header blockquote {
+  font-size: 16px;
+}
+
+}
+
+@media (min-width: 1024px) {
+
+.dev-path {
+  font-size: 30px;
+}
+
+.dev-name {
+  font-size: 60px;
+}
+
+}

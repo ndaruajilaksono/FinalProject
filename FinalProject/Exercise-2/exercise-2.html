@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="exercise-2.css">
+
+    <script src="exercise-2.js"></script>
+</head>
+
+<body id="body">
+    <div id="calculator">
+        <center><h2>Calculator Ndaru</h2></center>
+        <form name="kalkulator">
+            <table align="center">
+                <tr>
+                    <td>
+                        <input class="bil" type="text" name="bil1" placeholder="Bilangan 1">
+                    </td>
+                    <td rowspan="2">
+                        <input class="hasil" disabled="true" type="text" name="hasil" placeholder="Hasil">
+                    </td>
+                <tr>
+                    <td>
+                        <input class="bil" type="text" name="bil2" placeholder="Bilangan 2">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br><center>
+                        <input class="tombol" type="button" value="x" onClick="kali()">
+                        <input class="tombol" type="button" value="/" onClick="bagi()">
+                        <input class="tombol" type="button" value="+" onClick="tambah()">
+                        <input class="tombol" type="button" value="-" onClick="kurang()">
+                        <input class="tombol" type="button" value="HAPUS" onClick="hapus()"></center>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </div>
+        <center>
+            <div>
+                <a href="../index.html">
+                  <button style="margin: 50px; padding:20px" type="button" class="btn btn-success">BACK TO HOME</button>
+                </a>
+              </div>
+        </center>
+</body>
+</html>

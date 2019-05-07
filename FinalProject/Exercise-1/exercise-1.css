@@ -1,0 +1,36 @@
+#Biografi {
+    background-color: burlywood;
+}
+
+fieldset{
+    background-color: azure;
+}
+
+legend{
+    text-align: center;
+}
+
+th{
+    width: 50%;
+    text-align: left !important
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+#icon1{
+    width: 3%;
+}
+
+.notelp:hover{
+    background-color: skyblue;
+    color: red;
+    padding: 20px;
+}
+
+
